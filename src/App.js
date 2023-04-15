@@ -24,7 +24,7 @@ function App() {
       }
     });
     return unsubscribe;
-  }, [auth, db]);
+  }, []);
 
 
   const addNote = async (note) => {
